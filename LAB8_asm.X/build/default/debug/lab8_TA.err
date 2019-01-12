@@ -1,0 +1,7 @@
+Warning[205] C:\USERS\FEBRI\MPLABXPROJECTS\LAB8_ASM.X\LAB8_TA.ASM 1 : Found directive in column 1. (LIST)
+Warning[207] C:\USERS\FEBRI\MPLABXPROJECTS\LAB8_ASM.X\LAB8_TA.ASM 65 : Found label after column 1. (Hi_ISR)
+Warning[207] C:\USERS\FEBRI\MPLABXPROJECTS\LAB8_ASM.X\LAB8_TA.ASM 76 : Found label after column 1. (Initial)
+Warning[207] C:\USERS\FEBRI\MPLABXPROJECTS\LAB8_ASM.X\LAB8_TA.ASM 85 : Found label after column 1. (Init_IO)
+Warning[207] C:\USERS\FEBRI\MPLABXPROJECTS\LAB8_ASM.X\LAB8_TA.ASM 90 : Found label after column 1. (Init_Timer1)
+Warning[207] C:\USERS\FEBRI\MPLABXPROJECTS\LAB8_ASM.X\LAB8_TA.ASM 104 : Found label after column 1. (Main)
+Warning[205] C:\USERS\FEBRI\MPLABXPROJECTS\LAB8_ASM.X\LAB8_TA.ASM 106 : Found directive in column 1. (end)

@@ -1,0 +1,18 @@
+LIST p=18f4520
+#include<p18f4520.inc>
+CONFIG OSC = INTIO67
+CONFIG WDT = OFF
+    
+   ORG 0X00
+INIT: CLRF LATC
+      CLRF LATD
+      CLRF TRISC
+      CLRF TRISD
+S1:   INCF LATC
+      INCF LATD
+      NOP
+      
+      END
+    
+
+

@@ -1,0 +1,34 @@
+Warning[205] C:\USERS\FEBRI\MPLABXPROJECTS\MID_TEST.X\MID_TEST.ASM 1 : Found directive in column 1. (LIST)
+Warning[207] C:\USERS\FEBRI\MPLABXPROJECTS\MID_TEST.X\MID_TEST.ASM 74 : Found label after column 1. (L1)
+Warning[207] C:\USERS\FEBRI\MPLABXPROJECTS\MID_TEST.X\MID_TEST.ASM 75 : Found label after column 1. (L2)
+Warning[205] C:\USERS\FEBRI\MPLABXPROJECTS\MID_TEST.X\MID_TEST.ASM 86 : Found directive in column 1. (ORG)
+Warning[203] C:\USERS\FEBRI\MPLABXPROJECTS\MID_TEST.X\MID_TEST.ASM 87 : Found opcode in column 1. (bra)
+Warning[205] C:\USERS\FEBRI\MPLABXPROJECTS\MID_TEST.X\MID_TEST.ASM 88 : Found directive in column 1. (ORG)
+Warning[203] C:\USERS\FEBRI\MPLABXPROJECTS\MID_TEST.X\MID_TEST.ASM 89 : Found opcode in column 1. (bra)
+Warning[207] C:\USERS\FEBRI\MPLABXPROJECTS\MID_TEST.X\MID_TEST.ASM 103 : Found label after column 1. (Delay)
+Warning[205] C:\USERS\FEBRI\MPLABXPROJECTS\MID_TEST.X\MID_TEST.ASM 120 : Found directive in column 1. (endm)
+Warning[202] C:\USERS\FEBRI\MPLABXPROJECTS\MID_TEST.X\MID_TEST.ASM 106 : Argument out of range.  Least significant bits used.
+Warning[207] C:\USERS\FEBRI\MPLABXPROJECTS\MID_TEST.X\MID_TEST.ASM 108 : Found label after column 1. (LOOP2)
+Warning[207] C:\USERS\FEBRI\MPLABXPROJECTS\MID_TEST.X\MID_TEST.ASM 111 : Found label after column 1. (LOOP1)
+Warning[202] C:\USERS\FEBRI\MPLABXPROJECTS\MID_TEST.X\MID_TEST.ASM 106 : Argument out of range.  Least significant bits used.
+Warning[207] C:\USERS\FEBRI\MPLABXPROJECTS\MID_TEST.X\MID_TEST.ASM 108 : Found label after column 1. (LOOP2)
+Warning[207] C:\USERS\FEBRI\MPLABXPROJECTS\MID_TEST.X\MID_TEST.ASM 111 : Found label after column 1. (LOOP1)
+Warning[202] C:\USERS\FEBRI\MPLABXPROJECTS\MID_TEST.X\MID_TEST.ASM 106 : Argument out of range.  Least significant bits used.
+Warning[207] C:\USERS\FEBRI\MPLABXPROJECTS\MID_TEST.X\MID_TEST.ASM 108 : Found label after column 1. (LOOP2)
+Warning[207] C:\USERS\FEBRI\MPLABXPROJECTS\MID_TEST.X\MID_TEST.ASM 111 : Found label after column 1. (LOOP1)
+Warning[202] C:\USERS\FEBRI\MPLABXPROJECTS\MID_TEST.X\MID_TEST.ASM 106 : Argument out of range.  Least significant bits used.
+Warning[207] C:\USERS\FEBRI\MPLABXPROJECTS\MID_TEST.X\MID_TEST.ASM 108 : Found label after column 1. (LOOP2)
+Warning[207] C:\USERS\FEBRI\MPLABXPROJECTS\MID_TEST.X\MID_TEST.ASM 111 : Found label after column 1. (LOOP1)
+Warning[202] C:\USERS\FEBRI\MPLABXPROJECTS\MID_TEST.X\MID_TEST.ASM 106 : Argument out of range.  Least significant bits used.
+Warning[207] C:\USERS\FEBRI\MPLABXPROJECTS\MID_TEST.X\MID_TEST.ASM 108 : Found label after column 1. (LOOP2)
+Warning[207] C:\USERS\FEBRI\MPLABXPROJECTS\MID_TEST.X\MID_TEST.ASM 111 : Found label after column 1. (LOOP1)
+Warning[202] C:\USERS\FEBRI\MPLABXPROJECTS\MID_TEST.X\MID_TEST.ASM 106 : Argument out of range.  Least significant bits used.
+Warning[207] C:\USERS\FEBRI\MPLABXPROJECTS\MID_TEST.X\MID_TEST.ASM 108 : Found label after column 1. (LOOP2)
+Warning[207] C:\USERS\FEBRI\MPLABXPROJECTS\MID_TEST.X\MID_TEST.ASM 111 : Found label after column 1. (LOOP1)
+Warning[202] C:\USERS\FEBRI\MPLABXPROJECTS\MID_TEST.X\MID_TEST.ASM 106 : Argument out of range.  Least significant bits used.
+Warning[207] C:\USERS\FEBRI\MPLABXPROJECTS\MID_TEST.X\MID_TEST.ASM 108 : Found label after column 1. (LOOP2)
+Warning[207] C:\USERS\FEBRI\MPLABXPROJECTS\MID_TEST.X\MID_TEST.ASM 111 : Found label after column 1. (LOOP1)
+Warning[202] C:\USERS\FEBRI\MPLABXPROJECTS\MID_TEST.X\MID_TEST.ASM 106 : Argument out of range.  Least significant bits used.
+Warning[207] C:\USERS\FEBRI\MPLABXPROJECTS\MID_TEST.X\MID_TEST.ASM 108 : Found label after column 1. (LOOP2)
+Warning[207] C:\USERS\FEBRI\MPLABXPROJECTS\MID_TEST.X\MID_TEST.ASM 111 : Found label after column 1. (LOOP1)
+Warning[207] C:\USERS\FEBRI\MPLABXPROJECTS\MID_TEST.X\MID_TEST.ASM 272 : Found label after column 1. (testBtn2)

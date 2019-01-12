@@ -1,0 +1,10 @@
+Warning[205] C:\USERS\HONGHEN\MPLABXPROJECTS\LEDTEMP.X\TEST.ASM 1 : Found directive in column 1. (LIST)
+Error[150]   C:\USERS\HONGHEN\MPLABXPROJECTS\LEDTEMP.X\TEST.ASM 4 : Labels must be defined in a code or data section when making an object file
+Error[152]   C:\USERS\HONGHEN\MPLABXPROJECTS\LEDTEMP.X\TEST.ASM 4 : Executable code and data must be defined in an appropriate section
+Error[152]   C:\USERS\HONGHEN\MPLABXPROJECTS\LEDTEMP.X\TEST.ASM 5 : Executable code and data must be defined in an appropriate section
+Error[152]   C:\USERS\HONGHEN\MPLABXPROJECTS\LEDTEMP.X\TEST.ASM 6 : Executable code and data must be defined in an appropriate section
+Error[152]   C:\USERS\HONGHEN\MPLABXPROJECTS\LEDTEMP.X\TEST.ASM 7 : Executable code and data must be defined in an appropriate section
+Error[150]   C:\USERS\HONGHEN\MPLABXPROJECTS\LEDTEMP.X\TEST.ASM 8 : Labels must be defined in a code or data section when making an object file
+Error[152]   C:\USERS\HONGHEN\MPLABXPROJECTS\LEDTEMP.X\TEST.ASM 8 : Executable code and data must be defined in an appropriate section
+Error[152]   C:\USERS\HONGHEN\MPLABXPROJECTS\LEDTEMP.X\TEST.ASM 9 : Executable code and data must be defined in an appropriate section
+Error[152]   C:\USERS\HONGHEN\MPLABXPROJECTS\LEDTEMP.X\TEST.ASM 10 : Executable code and data must be defined in an appropriate section

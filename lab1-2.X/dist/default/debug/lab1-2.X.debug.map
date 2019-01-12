@@ -1,0 +1,40 @@
+MPLINK 5.09, LINKER
+Linker Map File - Created Thu Oct 04 15:34:56 2018
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x00000e
+                   .cinit    romdata   0x00000e    program   0x000002
+.config_300001_BUILD/DEFAULT/DEBUG/NEWASMTEMPLA    romdata   0x300001    program   0x000001
+.config_300003_BUILD/DEFAULT/DEBUG/NEWASMTEMPLA    romdata   0x300003    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x00000f      
+                            0x300001    0x300001      
+                            0x300003    0x300003      
+            18 out of 33048 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  Initial   0x000000    program     static C:\Users\febri\MPLABXProjects\lab1-2.X\newAsmTemplate.asm
+                     here   0x000004    program     static C:\Users\febri\MPLABXProjects\lab1-2.X\newAsmTemplate.asm
+                    start   0x000000    program     static C:\Users\febri\MPLABXProjects\lab1-2.X\newAsmTemplate.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  Initial   0x000000    program     static C:\Users\febri\MPLABXProjects\lab1-2.X\newAsmTemplate.asm
+                    start   0x000000    program     static C:\Users\febri\MPLABXProjects\lab1-2.X\newAsmTemplate.asm
+                     here   0x000004    program     static C:\Users\febri\MPLABXProjects\lab1-2.X\newAsmTemplate.asm
+
+

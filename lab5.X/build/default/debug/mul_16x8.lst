@@ -1,0 +1,81 @@
+
+
+Microchip Technology PIC18 Macro Assembler V2.00 build -1524193055 
+                                                                                                           Thu Nov 01 15:50:50 2018
+
+
+     1                           	processor	18F4520
+     2                           	opt	pw 132
+     3                           	psect	mytext,local,reloc=2,class=CODE,delta=1
+     4  0000                     stk_offset	set	0
+     5  0000                     auto_size	set	0
+     6                           
+     7                           ; stack_auto defines a symbol /name/_offset which equates to the
+     8                           ; stack offset of the auto object in question
+     9  0000                     
+    10                           ; stack_param defines a symbol /name/_offset which equates to the
+    11                           ; stack offset of the parameter object in question
+    12  0000                     
+    13                           ; alloc_stack adjusts the SP to allocate space for auto objects
+    14                           ; it also links in to the btemp symbol so that can be used
+    15  0000                     
+    16                           ; restore_stack adjusts the SP to remove all auto and parameter
+    17                           ; objects from the stack prior to returning from a function
+    18  0000                     
+    19                           	psect	mytext
+    20                           
+    21                           ;multiplicand: 0x01, 0x02
+    22                           ;multiplier: 0x03
+    23  007FAE  0E08               	movlw	8	;W = 8
+    24  007FB0  6E8C               	movwf	3980,c	;LATD = count(do shift for 8 times)
+    25  007FB2  6A8B               	clrf	3979,c	;LATC = how many negative numbers
+    26  007FB4  BF02               	btfsc	2,7,b
+    27  007FB6  D803               	rcall	invert1
+    28  007FB8  BF03               	btfsc	3,7,b
+    29  007FBA  D809               	rcall	invert2
+    30  007FBC  D00C               	goto	loop
+    31  007FBE                     invert1:
+    32  007FBE  90D8               	bcf	status,0,c	; carry = 0
+    33  007FC0  2A8B               	incf	3979,f,c
+    34  007FC2  1F01               	comf	1,f,b
+    35  007FC4  1F02               	comf	2,f,b
+    36  007FC6  2B01               	incf	1,f,b
+    37  007FC8  6AE8               	clrf	wreg,c
+    38  007FCA  2302               	addwfc	2,f,b
+    39  007FCC  0012               	return	
+    40  007FCE                     invert2:
+    41  007FCE  2A8B               	incf	3979,f,c
+    42  007FD0  1F03               	comf	3,f,b
+    43  007FD2  2B03               	incf	3,f,b
+    44  007FD4  0CFF               	retlw	255
+    45  007FD6                     loop:
+    46  007FD6  A103               	btfss	3,0,b
+    47  007FD8  D006               	goto	rotate
+    48  007FDA  5005               	movf	5,w,c
+    49  007FDC  2501               	addwf	1,w,b
+    50  007FDE  6F05               	movwf	5,b
+    51  007FE0  5006               	movf	6,w,c
+    52  007FE2  2102               	addwfc	2,w,b
+    53  007FE4  6F06               	movwf	6,b
+    54  007FE6                     rotate:
+    55  007FE6  90D8               	bcf	status,0,c	; carry = 0
+    56  007FE8  3701               	rlcf	1,f,b
+    57  007FEA  3702               	rlcf	2,f,b
+    58  007FEC  4303               	rrncf	3,f,b
+    59  007FEE  2E8C               	decfsz	3980,f,c
+    60  007FF0  D7F2               	goto	loop
+    61  007FF2  C005 F001          	movff	5,1
+    62  007FF6  C006 F002          	movff	6,2
+    63  007FFA  B08B               	btfsc	3979,0,c	;check if result should be negative
+    64  007FFC  DFE0               	rcall	invert1
+    65  007FFE  0012               	return	
+    66                           wreg	equ	0xFE8
+    67                           status	equ	0xFD8
+
+
+Microchip Technology PIC18 Macro Assembler V2.00 build -1524193055 
+Symbol Table                                                                                               Thu Nov 01 15:50:50 2018
+
+                        LATC 000F8B                          LATD 000F8C                          WREG 000FE8  
+                        _mul 0000                          loop 7FD6                        STATUS 000FD8  
+                      rotate 7FE6                       invert1 7FBE                       invert2 7FCE  
